@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-white text-black dark:bg-gray-800 dark:text-white p-6">
+    <h1 class="text-violet-800 text-center font=semibold">Responsive Design</h1>
+    <div>
+        <div class="bg-violet-400 sm:bg-yellow-300 md:bg-green-300 lg:bg-fuchsia-300">1</div><br>
+        <div class="bg-violet-400 sm:bg-yellow-300 md:bg-green-300 lg:bg-fuchsia-300">2</div><br>
+        <div class="bg-violet-400 sm:bg-yellow-300 md:bg-green-300 lg:bg-fuchsia-300">3</div><br>
+        <div class="bg-violet-400 sm:bg-yellow-300 md:bg-green-300 lg:bg-fuchsia-300">4</div><br>
+    </div>
+    <br><br>
+    <button class="bg-violet-700 hover:bg-green-400 text-white">
+        click now
+    </button>
+    <br><br>
+
+    <label>Name:</label>
+    <input class="border p-2 focus:border-blue-500 focus:outline-none">
+    <br><br>
+    <button class="bg-blue-900 active:bg-green-300 p-3 text-white">
+        Submit
+    </button>
+    <br><br>
+    <div class="group bg-fuchsia-300 p-5">
+        <h2 class="group-hover:text-red-500">HELLO</h2>
+        <h2 class="group-hover:translate-y-3">GUYSSS</h2>
+    </div>
+
+    <div class="group bg-fuchsia-300 rounded">
+        <img class="group-hover:scale-110 duration-300 w-60 h-30" src="" alt="">
+        <p class="group-hover:text-violet-500">Tailwind CSS</p>
+    </div>
+    <br><br>
+    <div class="flex flex-col md:flex-row gap-4">
+        <div class="flex justify-center items-center bg-red-300 p-5">1</div>
+        <div class="flex justify-center items-center bg-red-300 p-5">2</div>
+        <div class="flex justify-center items-center bg-red-300 p-5">3</div>
+    </div>
+    <br><br>
+    <div class="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-blue-300 sm:bg-purple-300 md:fuchsia-300 lg:bg-orange-300 p-5">1</div>
+        <div class="bg-blue-300 sm:bg-purple-300 md:fuchsia-300 lg:bg-orange-300 p-5">2</div>
+        <div class="bg-blue-300 sm:bg-purple-300 md:fuchsia-300 lg:bg-orange-300 p-5">3</div>
+        <div class="bg-blue-300 sm:bg-purple-300 md:fuchsia-300 lg:bg-orange-300 p-5">4</div>
+        <div class="bg-blue-300 sm:bg-purple-300 md:fuchsia-300 lg:bg-orange-300 p-5">5</div>
+        <div class="bg-blue-300 sm:bg-purple-300 md:fuchsia-300 lg:bg-orange-300 p-5">6</div>
+        <div class="bg-blue-300 sm:bg-purple-300 md:fuchsia-300 lg:bg-orange-300 p-5">6</div>
+    </div>
+    <div class="bg-white text-black dark:bg-gray-800 dark:text-white p-6">
+        <h1 class="text-3xl font-bold ">Tailwind Dark Mode CSS</h1>
+        <p class="mt-5 text-gray-700 dark:text-gray-400 ">This Texyt changes in Dark Mode</p>
+        <button class="mt-5 px-4 py-2 bg-violet-500 text-white rounded dark:bg-violet=800">
+            Click Now
+        </button>
+    </div>
+</body>
+</html>
